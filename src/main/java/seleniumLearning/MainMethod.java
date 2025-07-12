@@ -32,8 +32,9 @@ public class MainMethod {
 		
 		//PassengerDropDown.passengerDropDown1(URL);
 		
-		DynamicDropDowns.BasicDynamicDropDown(URL);
+		//DynamicDropDowns.BasicDynamicDropDown(URL);
 		
+		AutoSuggestingDropDown.AutoSugDropDown(URL);
 		
 		
 	}
