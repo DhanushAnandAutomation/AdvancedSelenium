@@ -28,9 +28,13 @@ public class MainMethod {
 		System.out.println(URL);
 		
 		
-		StaticDropDown.StaticDropDown1(URL);
+		//StaticDropDown.StaticDropDown1(URL);
 		
-		PassengerDropDown.passengerDropDown1(URL);
+		//PassengerDropDown.passengerDropDown1(URL);
+		
+		DynamicDropDowns.BasicDynamicDropDown(URL);
+		
+		
 		
 	}
 

@@ -6,9 +6,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+
 
 public  class PassengerDropDown {
-	
 	
 	public static void passengerDropDown1(String URL) throws InterruptedException{
 	
