@@ -25,16 +25,22 @@ public class MainMethod {
         prop.load(new FileInputStream("src/main/resources/config.properties"));
 		
         String URL = prop.getProperty("URL");	
-		System.out.println(URL);
+		//System.out.println(URL);
 		
-		
+        String assigmentURL1 = prop.getProperty("assigmentURL1");
+        
 		//StaticDropDown.StaticDropDown1(URL);
 		
 		//PassengerDropDown.passengerDropDown1(URL);
 		
 		//DynamicDropDowns.BasicDynamicDropDown(URL);
 		
-		AutoSuggestingDropDown.AutoSugDropDown(URL);
+		//AutoSuggestingDropDown.AutoSugDropDown(URL);
+		
+		//CheckBoxAndAssertions.checkbox(URL);
+		
+		//Assignment1.assigment1(assigmentURL1);
+		
 		
 		
 	}
