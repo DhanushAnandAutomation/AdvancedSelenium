@@ -7,6 +7,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -29,6 +30,8 @@ public class MainMethod {
 		
         String assigmentURL1 = prop.getProperty("assigmentURL1");
         
+        String assignmentURL2 = prop.getProperty("assigmentURL2");
+        
 		//StaticDropDown.StaticDropDown1(URL);
 		
 		//PassengerDropDown.passengerDropDown1(URL);
@@ -40,8 +43,12 @@ public class MainMethod {
 		//CheckBoxAndAssertions.checkbox(URL);
 		
 		//Assignment1.assigment1(assigmentURL1);
-		
-		
+        
+        //Assignment2.AssignmentTwo(assignmentURL2);
+
+        EndToEndFlightBooking.FlightBooking(URL);
+        
+        
 		
 	}
 
