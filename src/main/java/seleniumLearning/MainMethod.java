@@ -46,9 +46,9 @@ public class MainMethod {
         
         //Assignment2.AssignmentTwo(assignmentURL2);
 
-        EndToEndFlightBooking.FlightBooking(URL);
+        //EndToEndFlightBooking.FlightBooking(URL);
         
-        
+        Alerts.Alerts();
 		
 	}
 
