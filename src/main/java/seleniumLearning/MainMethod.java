@@ -48,7 +48,9 @@ public class MainMethod {
 
         //EndToEndFlightBooking.FlightBooking(URL);
         
-        Alerts.Alerts();
+		/* Alerts.Alerts(); */
+        
+        eCommerce.AmazonInterview();
 		
 	}
 
