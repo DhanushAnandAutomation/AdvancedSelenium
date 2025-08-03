@@ -22,5 +22,12 @@
 <artifactId>chromedriver</artifactId>
 <version>0.3.3</version>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.webdriver/webdriver-common -->
+<dependency>
+    <groupId>org.seleniumhq.webdriver</groupId>
+    <artifactId>webdriver-common</artifactId>
+    <version>0.9.7376</version>
+</dependency>
 </dependencies>
 </project>
